@@ -22,55 +22,55 @@ Also, this repository provides some controllers for path tracking, including
 This repository uses two models: simple car model and [car pulling trailers model](http://planning.cs.uiuc.edu/node661.html#77556).
 
 ## Hybrid A* Planner
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/HybridAstarPlanner/gif/hybrid%20Astar-1.gif" alt="1" width="400"/></a></td>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/HybridAstarPlanner/gif/hybrid%20Astar-2.gif" alt="2" width="400"/></a></td>
+    <td><img src="HybridAstarPlanner/gif/hybrid%20Astar-1.gif" alt="1" width="400"/></a></td>
+    <td><img src="HybridAstarPlanner/gif/hybrid%20Astar-2.gif" alt="2" width="400"/></a></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/HybridAstarPlanner/gif/hybrid%20Astar-t1.gif" alt="11" width="400"/></a></td>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/HybridAstarPlanner/gif/hybrid%20Astar-t5.gif" alt="12" width="400"/></a></td>
+    <td><img src="HybridAstarPlanner/gif/hybrid%20Astar-t1.gif" alt="11" width="400"/></a></td>
+    <td><img src="HybridAstarPlanner/gif/hybrid%20Astar-t5.gif" alt="12" width="400"/></a></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/HybridAstarPlanner/gif/hybrid%20Astar-t3.gif" alt="13" width="400"/></a></td>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/HybridAstarPlanner/gif/hybrid%20Astar-t2.gif" alt="14" width="400"/></a></td>
+    <td><img src="HybridAstarPlanner/gif/hybrid%20Astar-t3.gif" alt="13" width="400"/></a></td>
+    <td><img src="HybridAstarPlanner/gif/hybrid%20Astar-t2.gif" alt="14" width="400"/></a></td>
   </tr>
 </table>
 </div>
 
 ## State Lattice Planner
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/LatticePlanner/gif/Crusing.gif" alt="1" width="400"/></a></td>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/LatticePlanner/gif/StoppingMode.gif" alt="2" width="400"/></a></td>
+    <td><img src="LatticePlanner/gif/Crusing.gif" alt="1" width="400"/></a></td>
+    <td><img src="LatticePlanner/gif/StoppingMode.gif" alt="2" width="400"/></a></td>
   </tr>
 </table>
 </div>
 
 ## Controllers
-<div align=right>
+<div align=left>
 <table>
   <tr>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/Control/gif/purepursuit1.gif" alt="1" width="400"/></a></td>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/Control/gif/RWF1.gif" alt="2" width="400"/></a></td>
+    <td><img src="Control/gif/purepursuit1.gif" alt="1" width="400"/></a></td>
+    <td><img src="Control/gif/RWF1.gif" alt="2" width="400"/></a></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/Control/gif/stanley.gif" alt="1" width="400"/></a></td>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/Control/gif/MPC.gif" alt="2" width="400"/></a></td>
+    <td><img src="Control/gif/stanley.gif" alt="1" width="400"/></a></td>
+    <td><img src="Control/gif/MPC.gif" alt="2" width="400"/></a></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/Control/gif/LQR_Kinematic.gif" alt="1" width="400"/></a></td>
-    <td><img src="https://github.com/zhm-real/MotionPlanning/blob/master/Control/gif/LQR_Dynamics.gif" alt="2" width="400"/></a></td>
+    <td><img src="Control/gif/LQR_Kinematic.gif" alt="1" width="400"/></a></td>
+    <td><img src="Control/gif/LQR_Dynamics.gif" alt="2" width="400"/></a></td>
   </tr>
 </table>
 </div>

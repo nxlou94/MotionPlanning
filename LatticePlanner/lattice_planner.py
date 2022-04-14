@@ -241,7 +241,7 @@ def verify_path(path):
             any([abs(curv) > C.MAX_CURVATURE for curv in path.curv]):
         return False
 
-    return True
+    return True 
 
 
 def extract_optimal_path(paths):
@@ -256,7 +256,9 @@ def extract_optimal_path(paths):
         else:
             return path
 
-    return paths[-1]
+    # return paths[-1]
+    for path in paths:
+        return path
 
 
 def lattice_planner_for_Cruising(l0, l0_v, l0_a, s0, s0_v, s0_a, ref_path):

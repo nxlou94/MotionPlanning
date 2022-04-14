@@ -136,6 +136,9 @@ def calc_holonomic_heuristic_with_obstacle(node, ox, oy, reso, rr):
 
 
 def check_node(node, P, obsmap):
+    """
+    check if node is inside P and collision free
+    """
     if node.x <= P.minx or node.x >= P.maxx or \
             node.y <= P.miny or node.y >= P.maxy:
         return False
@@ -151,10 +154,16 @@ def u_cost(u):
 
 
 def fvalue(node, n_goal):
+    """
+    cost + heuristic
+    """
     return node.cost + h(node, n_goal)
 
 
 def h(node, n_goal):
+    """
+    heuristic, defaulting to euclidean
+    """
     return math.hypot(node.x - n_goal.x, node.y - n_goal.y)
 
 
